@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Databa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9720D1DA-2DA4-4E13-85D7-C30DA59D1253}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2ECCAF10-06F4-4018-9F29-160AD239D8D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,8 +39,11 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0459CDD8-87B8-4B20-8F05-AFD800BA4FED} = {2ECCAF10-06F4-4018-9F29-160AD239D8D2}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {E1E100FC-6306-4AED-B3B3-A501DAF37D2E}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
